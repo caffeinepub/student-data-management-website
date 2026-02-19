@@ -1,0 +1,18 @@
+{
+  "backend/main.mo": "Motoko actor defining a Student type with CRUD operations (add, get, update, getAllStudents) and comparison functions for sorting by name, email, or UID.",
+  "feature_evidence.json": "Feature evidence report documenting four implemented features: React form for adding students, student list with edit functionality, no authentication, and warm educational theme design.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of frontend files describing components for student management, custom React Query hooks, and styling with warm educational color palette.",
+  "frontend/index.css": "Tailwind CSS base styles defining CSS custom properties for light and dark themes using OKLCH color format with warm educational color palette.",
+  "frontend/index.html": "HTML entry point with root div and module script reference to main.tsx for the Student Data Management Website.",
+  "frontend/src/App.tsx": "Main React application component with header, footer with social links, and two-column layout displaying StudentForm and StudentList components.",
+  "frontend/src/components/StudentEditForm.tsx": "Modal dialog component for editing student records with form validation, read-only UID field, and integration with useUpdateStudent mutation hook.",
+  "frontend/src/components/StudentForm.tsx": "Card-based form component for adding new students with name, email, and UID fields, including validation and toast notifications using useAddStudent mutation.",
+  "frontend/src/components/StudentList.tsx": "Displays all student records in card layout with edit buttons, handles loading/error/empty states, and manages StudentEditForm dialog visibility.",
+  "frontend/src/hooks/useActor.ts": "Custom React hook that creates and manages an ICP backend actor using React Query, automatically recreating the actor when identity changes and invalidating dependent queries.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing login/logout state, identity persistence, and delegation validation with configurable AuthClient options.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for student CRUD operations including useGetAllStudents, useAddStudent, and useUpdateStudent, with automatic cache invalidation on mutations.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom CSS variables defining a warm educational color palette (terracotta and sage green) for both light and dark modes using OKLCH color space.",
+  "frontend/src/main.tsx": "Application entry point that sets up React root with QueryClientProvider and InternetIdentityProvider wrappers around the main App component.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the theme with custom colors mapped to CSS variables, custom fonts (Inter, JetBrains Mono), shadows, animations, and plugins for typography and container queries.",
+  "project_state.json": "Project metadata tracking a student data management website with public access, defining existing features (React frontend with forms, student list display, warm educational theme) and pending backend implementation tasks."
+}

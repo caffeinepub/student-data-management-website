@@ -1,0 +1,9 @@
+{
+  "frontend/src/App.tsx": "Main application component with header, footer, and layout that displays the student form and list side-by-side with warm educational branding.",
+  "frontend/src/components/StudentForm.tsx": "Form component for adding new students with name, email, and UID fields, including validation and success feedback using toast notifications.",
+  "frontend/src/components/StudentList.tsx": "Displays all student records in card format with edit buttons, handles loading and empty states, and manages the edit dialog state.",
+  "frontend/src/components/StudentEditForm.tsx": "Modal dialog component for editing existing student records with pre-populated fields and validation, UID is read-only.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for fetching all students, adding new students, and updating existing students with automatic cache invalidation.",
+  "frontend/src/index.css": "Global styles with warm educational color palette using terracotta and sage green in OKLCH format for both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration with custom educational theme colors, enhanced shadows, and Inter/JetBrains Mono font families."
+}
